@@ -1,0 +1,68 @@
+body {
+	background-image: url('photos/background.png');
+	margin: 0;
+}
+
+#container404 {
+	/*background-color: blue;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 1000px;
+	height: 200px;
+	margin-left: -500px;
+	margin-top: -100px;
+}
+
+#smiley {
+	height: 200px;
+	width: 200px;
+	padding-right: 30px;
+}
+
+#interrogation {
+	height: 200px;
+	width: 200px;
+}
+
+#article1 {
+	height: auto;
+	width: 400px;
+	/*background-color: orange;*/
+	text-align: right;
+}
+
+#article2 {
+	height: auto;
+	width: 400px;
+	/*background-color: red;*/
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#article3 {
+	height: auto;
+	width: 400px;
+	/*background-color: green;*/
+	text-align: left;
+}
+
+p {
+	font-family: 'Lucida Console', monospace;
+	color: white;
+	text-shadow: 2px 0 0 black;
+	font-size: 18px;
+}
+
+h1 {
+	font-family: 'Verdana', sans-serif;
+	color: white;
+	font-size: 120px;
+	margin-bottom: 1px;
+	margin-top: 1px;
+	text-shadow: 4px 0 0 black;
+}
